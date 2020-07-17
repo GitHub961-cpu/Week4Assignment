@@ -20,6 +20,10 @@ public class Week4Assignment
 				"and then it will report the surface area and volume of it\n");
 		
 		//prompt the user 
+		
+		// @professorgordon comment: The print command is better for prompts so that the cursor remains on the 
+		// line to the right of the prompt for the user to see the prompt related to their entries.
+		
 		System.out.println("Enter the box length: ");
 		l = input.nextDouble();
 		System.out.println("Enter the box height: ");
